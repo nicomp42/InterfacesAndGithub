@@ -24,9 +24,11 @@ namespace InterfacesAndGithub
                     largestPrimeFactor = testStudent.ComputeLargestPrimeFactor(MNumber);
                     if (student.ComputeLargestPrimeFactor(MNumber) == largestPrimeFactor) {
                         passCount++;
-                    } else {
+                        Console.WriteLine("Test passed for " + student.MNumber);
+                    }
+                    else {
                         failCount++;
-                        Console.WriteLine("Test failed for " + student.MNumber);
+                        Console.WriteLine("Test FAILED for " + student.MNumber);
                     }
                 } catch (Exception ex) {
                     failCount++;
@@ -35,9 +37,8 @@ namespace InterfacesAndGithub
             }
             Console.WriteLine("Pass count = " + passCount + ", fail count = " + failCount);
         }
-        private static void InitializeStudents(List<Student> students)
-        {
-            try {students.Add(new M05017602("M05017602")); } catch (Exception ex) { Console.WriteLine(ex.Message);}
+        private static void InitializeStudents(List<Student> students) {
+/*            try {students.Add(new M05017602("M05017602")); } catch (Exception ex) { Console.WriteLine(ex.Message);}
             try {students.Add(new M10839619("M10839619")); } catch (Exception ex) { Console.WriteLine(ex.Message); }
             try {students.Add(new M11234435("M11234435")); } catch (Exception ex) { Console.WriteLine(ex.Message); }
             try {students.Add(new M12193022("M12193022")); } catch (Exception ex) { Console.WriteLine(ex.Message); }
@@ -53,6 +54,6 @@ namespace InterfacesAndGithub
             try {students.Add(new M13029603("M13029603")); } catch (Exception ex) { Console.WriteLine(ex.Message); }
             try {students.Add(new M13070577("M13070577")); } catch (Exception ex) { Console.WriteLine(ex.Message); }
             try {students.Add(new M13089614("M13089614")); } catch (Exception ex) { Console.WriteLine(ex.Message); }
-        }
+*/        }
     }
 }
