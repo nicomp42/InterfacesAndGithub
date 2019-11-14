@@ -44,21 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="IStudent.cs" />
-    <Compile Include="Students\M05017602.cs" />
-    <Compile Include="Students\M10839619.cs" />
     <Compile Include="Students\M11234435.cs" />
-    <Compile Include="Students\M12193022.cs" />
-    <Compile Include="Students\M12299513.cs" />
-    <Compile Include="Students\M12527870.cs" />
-    <Compile Include="Students\M12537980.cs" />
-    <Compile Include="Students\M12685430.cs" />
-    <Compile Include="Students\M12822669.cs" />
-    <Compile Include="Students\M12847946.cs" />
-    <Compile Include="Students\M13000042.cs" />
-    <Compile Include="Students\M13025602.cs" />
-    <Compile Include="Students\M13029603.cs" />
-    <Compile Include="Students\M13070577.cs" />
-    <Compile Include="Students\M13089614.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Student.cs" />
