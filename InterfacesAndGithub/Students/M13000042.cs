@@ -10,7 +10,11 @@ namespace InterfacesAndGithub
     {
         public M13000042(String name) : base(name) { }
        
-
+        /// <summary>
+        /// Computes the largest prime factor.
+        /// </summary>
+        /// <param name="num">The number to find the largest prime factor of</param>
+        /// <returns>The largest prime factor of the given number</returns>
         public override long ComputeLargestPrimeFactor(long num)
         {
             long largestPrimeFactor = -1;
@@ -26,6 +30,12 @@ namespace InterfacesAndGithub
 
             return largestPrimeFactor;
         }
+
+        /// <summary>
+        /// Computes whether a number is prime.
+        /// </summary>
+        /// <param name="num">The number to check for primality</param>
+        /// <returns>True if the number is prime, false otherwise</returns>
 
         private bool IsPrime(long num)
         {
