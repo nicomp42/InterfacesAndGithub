@@ -19,7 +19,7 @@ namespace InterfacesAndGithub
         public Student(String MNumber) { mMNumber = MNumber; }
         public String MNumber
         {
-            get { return MNumber; }
+            get { return mMNumber; }
         }
         public abstract long ComputeLargestPrimeFactor(long num);
     }
