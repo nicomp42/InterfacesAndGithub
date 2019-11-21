@@ -1,12 +1,10 @@
-﻿/******************************
+/******************************
  * Name: Joseph Svintsitsky
  * Email: svintsjr@mail.uc.edu
  * Assignment #: 11
  * Due Date: 11/20/19
  * Course: IT3045C
- * Desc: 
- * Citations: 
- * Anything else:
+ * Desc: Program to calculate largest prime factor of a number.
  * ****************************
  */
 using System;
@@ -19,7 +17,13 @@ namespace InterfacesAndGithub.Students
 {
     class M12925369 : Student, IStudent
     {
-        public M12925369(String MNumber) : base(MNumber) { }
+        public M12925369(String MNumber) : base(MNumber) {MNumber = mMNumber; }
+
+        public String MNumber
+        {
+            get {return MNumber;}
+            get {return mMNumber;}
+        }
 
         public override long ComputeLargestPrimeFactor(long num)
         {
