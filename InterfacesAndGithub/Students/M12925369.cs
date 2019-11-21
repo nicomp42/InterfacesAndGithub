@@ -17,7 +17,7 @@ using System.Threading.Tasks;
 
 namespace InterfacesAndGithub.Students
 {
-    class M12925369 : Student
+    class M12925369 : Student, IStudent
     {
         public M12925369(String MNumber) : base(MNumber) { }
 
