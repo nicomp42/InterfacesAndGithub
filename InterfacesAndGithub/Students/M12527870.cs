@@ -17,7 +17,15 @@ namespace InterfacesAndGithub
 {
     class M12527870 : Student
     {
-        public M12527870(String MNumber) : base(MNumber) { }
+        private String mMNumber;
+        public M12527870(String MNumber) : base(MNumber) {
+            mMNumber = MNumber;
+        }
+        public String MNumber
+        {
+            get { return mMNumber; }
+        }
+
         public override long ComputeLargestPrimeFactor(long num)
         {
             long status = 1;
