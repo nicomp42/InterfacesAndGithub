@@ -1,4 +1,13 @@
-﻿using System;
+﻿
+/*****************************************************************************************************************
+ * Name            - Thaddeus Fairweather
+ * Email Address   - fairwetd@mail.uc.edu   
+ * Assignment #    - Assignment GitHub
+ * Due date        - 11/21/2019
+ * Course          - IT3045C
+ * Description     - Program to calculate largest prime factor of a number
+ *****************************************************************************************************************/
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
