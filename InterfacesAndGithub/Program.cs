@@ -38,7 +38,7 @@ namespace InterfacesAndGithub
             Console.WriteLine("Pass count = " + passCount + ", fail count = " + failCount);
         }
         private static void InitializeStudents(List<Student> students) {
-/*            try {students.Add(new M05017602("M05017602")); } catch (Exception ex) { Console.WriteLine(ex.Message);}
+/*          try {students.Add(new M05017602("M05017602")); } catch (Exception ex) { Console.WriteLine(ex.Message);}
             try {students.Add(new M10839619("M10839619")); } catch (Exception ex) { Console.WriteLine(ex.Message); }
             try {students.Add(new M11234435("M11234435")); } catch (Exception ex) { Console.WriteLine(ex.Message); }
             try {students.Add(new M12193022("M12193022")); } catch (Exception ex) { Console.WriteLine(ex.Message); }
