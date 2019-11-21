@@ -1,4 +1,18 @@
-﻿using System;
+﻿/*
+*****************************************************************************************
+ * Name: Jeff Benton        
+ * Email: bentonjc@mail.uc.edu
+ * Assignment #: github pull demo assignment
+ * Due Date: 11/21/2019
+ * Course: Contemporary Programming
+ * Desc: Fork, Clone, implement methods/class, commit, push and finally make a pull req. to Prof's github to create working program
+ * citations:
+ * anything else: 
+*****************************************************************************************
+ */
+
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,7 +24,7 @@ namespace InterfacesAndGithub
     {
         public M05017602(String mNumber) : base(mNumber) { } //Call the base class constructorthat holds mNumber value
 
-        //retusn longest prime of a given number
+        //retuns longest prime of a given number
         public override long ComputeLargestPrimeFactor(long num)
         {
             long lp = 1;
@@ -20,6 +34,8 @@ namespace InterfacesAndGithub
             }
             return lp;
         }
+
+        //determines if # is prime
         private Boolean IsPrime(long num)
         {
             Boolean result = true;
